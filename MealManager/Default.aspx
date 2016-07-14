@@ -8,7 +8,7 @@
             <div class="col-md-10">
                 <h1>Meal Manager</h1>
                 <p class="lead">Order your meal with just a click. Serving Building A and Building B.</p>
-                <p><a href="MainMenu" class="btn btn-primary btn-lg">Order Now</a></p>
+                <asp:Button ID="btnOrder" runat="server" Text="Order Now" OnClick="btnOrder_Click" CssClass="btn btn-primary btn-lg"/>
             </div>
            
             <div class="col-md-2"></div>
@@ -35,7 +35,9 @@
                     <tr>
 
                         <td>Monday</td>
-                        <td>Baked Chicken</td>
+                        <td>Baked Chicken
+                            <asp:Literal ID="ltMessage" runat="server" />
+                        </td>
                     </tr>
                     <tr>
 
