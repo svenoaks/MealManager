@@ -49,9 +49,11 @@ body {
     -moz-box-shadow: 0px 0px 41px 2px rgba(0,0,0,0.39);
     box-shadow: 0px 0px 41px 2px rgba(0,0,0,0.39);
 }
+
 .image-special {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
+
 #div-splash {
     margin-top: 125px;
     margin-left: 50px;
@@ -59,7 +61,7 @@ body {
 
 .btn-primary {
     background: #d04740;
-    color: #ffffff;
+    color: #fff;
 }
 
     .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -86,7 +88,7 @@ body {
 }
 
     .navbar-default .navbar-brand {
-        color: #ffffff;
+        color: #fff;
     }
 
         .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -94,7 +96,7 @@ body {
         }
 
     .navbar-default .navbar-nav > li > a {
-        color: #ffffff;
+        color: #fff;
     }
 
         .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -106,24 +108,33 @@ body {
         max-width: 1200px;
     }
 }
+
 @media (max-width: 1199px) {
-    
+
     #div-splash {
         margin-left: 0;
     }
 }
+
 @media (max-width: 767px) {
     body {
-        padding-top:0;
+        padding-top: 0;
     }
+
     #jumbotron-splash {
-        margin-left:-15px;
-        margin-right:-15px;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 }
 
 /*END Steve CSS*/
 
+/* Anthnoy Howard */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/******************/
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -135,5 +146,3 @@ body {
         padding: 0;
     }
 }
-
-

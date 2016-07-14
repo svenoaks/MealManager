@@ -30,41 +30,52 @@
         </div>
         <div class="col-md-4">
             <h2>This Week's Specials</h2>
+
             <table class="table">
                 <tbody>
                     <tr>
 
-                        <td>Monday</td>
-                        <td>Baked Chicken
-                            <asp:Literal ID="ltMessage" runat="server" />
+                        <td class="bold">Monday</td>
+                        <td>
+                            <asp:Literal ID="ltMondayMessage" runat="server" />
                         </td>
                     </tr>
                     <tr>
 
                         <td>Tuesday</td>
-                        <td>Fried Liver</td>
+                        <td>
+                            <asp:Literal ID="ltTuesdayMessage" runat="server" />
+                        </td>
 
                     </tr>
                     <tr>
 
                         <td>Wednesday</td>
-                        <td>Chopped Suey</td>
+                        <td>
+                            <asp:Literal ID="ltWednesdayMessage" runat="server" />
+                        </td>
 
                     </tr>
                     <tr>
 
                         <td>Thursday</td>
 
-                        <td>'Merica Burgers</td>
+                        <td>
+                            <asp:Literal ID="ltThursdayMessage" runat="server" />
+                        </td>
                     </tr>
                     <tr>
 
                         <td>Friday</td>
 
-                        <td>Fajitas</td>
+                        <td>
+                            <asp:Literal ID="ltFridayMessage" runat="server" />
+
+                        </td>
                     </tr>
                 </tbody>
             </table>
+            
    
         </div>
         <div class="col-md-4">
