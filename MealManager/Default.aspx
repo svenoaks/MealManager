@@ -8,9 +8,9 @@
             <div class="col-md-10">
                 <h1>Meal Manager</h1>
                 <p class="lead">Order your meal with just a click. Serving Building A and Building B.</p>
-                <p><a href="MainMenu" class="btn btn-primary btn-lg">Order Now</a></p>
+                <asp:Button ID="OrderButton" runat="server" Text="Order Now" OnClick="OrderBtn_Click" CssClass="btn btn-primary btn-lg" />
             </div>
-           
+
             <div class="col-md-2"></div>
         </div>
     </div>
@@ -21,49 +21,62 @@
                 Baked Chicken with a side of kale greens. Served over piping hot carrots and artichokes or something.
             </p>
             <a runat="server" href="~/">
-                <asp:Image  ID="ChickenImage" runat="server" ImageUrl="~/Images/chicken.jpg" BorderStyle="None" Width="75%" CssClass="image-special"/>
-            </a>  
+                <asp:Image ID="ChickenImage" runat="server" ImageUrl="~/Images/chicken.jpg" BorderStyle="None" Width="75%" CssClass="image-special" />
+            </a>
             <p>
                 <a class="btn btn-default" href="MainMenu">Order Now &raquo;</a>
             </p>
-           
+
         </div>
         <div class="col-md-4">
             <h2>This Week's Specials</h2>
+
             <table class="table">
                 <tbody>
                     <tr>
 
-                        <td>Monday</td>
-                        <td>Baked Chicken</td>
+                        <td class="bold">Monday</td>
+                        <td>
+                            <asp:Literal ID="MondayLiteral" runat="server" />
+                        </td>
                     </tr>
                     <tr>
 
                         <td>Tuesday</td>
-                        <td>Fried Liver</td>
+                        <td>
+                            <asp:Literal ID="TuesdayLiteral" runat="server" />
+                        </td>
 
                     </tr>
                     <tr>
 
                         <td>Wednesday</td>
-                        <td>Chopped Suey</td>
+                        <td>
+                            <asp:Literal ID="WednesdayLiteral" runat="server" />
+                        </td>
 
                     </tr>
                     <tr>
 
                         <td>Thursday</td>
 
-                        <td>'Merica Burgers</td>
+                        <td>
+                            <asp:Literal ID="ThursdayLiteral" runat="server" />
+                        </td>
                     </tr>
                     <tr>
 
                         <td>Friday</td>
 
-                        <td>Fajitas</td>
+                        <td>
+                            <asp:Literal ID="FridayLiteral" runat="server" />
+
+                        </td>
                     </tr>
                 </tbody>
             </table>
-   
+
+
         </div>
         <div class="col-md-4">
             <h2>News from the Kitchen</h2>

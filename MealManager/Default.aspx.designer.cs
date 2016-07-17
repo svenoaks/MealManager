@@ -13,6 +13,15 @@ namespace MealManager {
     public partial class _Default {
         
         /// <summary>
+        /// OrderButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button OrderButton;
+        
+        /// <summary>
         /// ChickenImage control.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,50 @@ namespace MealManager {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ChickenImage;
+        
+        /// <summary>
+        /// MondayLiteral control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal MondayLiteral;
+        
+        /// <summary>
+        /// TuesdayLiteral control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal TuesdayLiteral;
+        
+        /// <summary>
+        /// WednesdayLiteral control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal WednesdayLiteral;
+        
+        /// <summary>
+        /// ThursdayLiteral control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ThursdayLiteral;
+        
+        /// <summary>
+        /// FridayLiteral control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal FridayLiteral;
     }
 }
