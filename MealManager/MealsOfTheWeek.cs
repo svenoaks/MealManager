@@ -1,86 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
+using System.IO;
 
 namespace MealManager
 {
-    /**
-    ** Purpose: Centralizes the future connection to the database in which weekly meals will be recieved. 
-    ** All webpage code behinds will be able to utilize the functionality and display the meals for the week.
-    **
-    ** Anthony Howard
-    **/
-
+    //
+    // Summary:
+    //     Retrieves meals of the week, specials of the week and allows other 
+    //     classes to access the information. 
+    //     
     public class MealsOfTheWeek
     {
-        // No other class can directly access these variables directly
-        private string mondayMeal, tuesdayMeal, wednesdayMeal, thursdaymeal, fridayMeal;
+        public string MondaySpecial { get; private set; } 
+        public string TuesdaySpecial { get; private set; }
+        public string WednesdaySpecial { get; private set; }
+        public string ThursdaySpecial { get; private set; }
+        public string FridaySpecial { get; private set; }
 
-        #region Getters for the meals of the week
-        public string getMonday
-        {
-            get
-            {
-                return mondayMeal;
-            }
-        }
-
-        public string getTuesday
-        {
-            get
-            {
-                return tuesdayMeal;
-            }
-        }
-
-        public string getWednesday
-        {
-            get
-            {
-                return wednesdayMeal;
-            }
-        }
-
-        public string getThursday
-        {
-            get
-            {
-                return thursdaymeal;
-            }
-        }
-
-        public string getFriday
-        {
-            get
-            {
-                return fridayMeal;
-            }
-        }
-
-
-        #endregion
-
-
-        // Default Constructor. Takes 0 arguments 
         public MealsOfTheWeek()
         {
-            getMealsOfTheWeek();
+            SetMealSpecialsOfTheWeek();
         }
-
-        private void getMealsOfTheWeek()
+        private void SetMealSpecialsOfTheWeek()
         {
-  
             // Eventually will request current meals from a SQL database
             // For now, they will remain hard coded
-            mondayMeal = "Baked Chicken";
-            tuesdayMeal = "Fried Liver";
-            wednesdayMeal = "Chopped Suey";
-            thursdaymeal = "Merica Burgers";
-            fridayMeal = "Fajitas";
+            this.MondaySpecial = "Baked Chicken";
+            this.TuesdaySpecial = "Fried Liver";
+            this.WednesdaySpecial = "Chopped Suey";
+            this.ThursdaySpecial = "Merica Burgers";
+            this.FridaySpecial = "Fajitas";
         }
-
     }
 
-    
+
 }

@@ -16,14 +16,14 @@ namespace MealManager
         {
             // Preloads the hard coded meals of the day to the web page
             // Will be replaced with a database connection in the future
-            ltMondayMessage.Text = (string)meals.getMonday;
-            ltTuesdayMessage.Text = (string)meals.getTuesday;
-            ltWednesdayMessage.Text = (string)meals.getWednesday;
-            ltThursdayMessage.Text = (string)meals.getThursday;
-            ltFridayMessage.Text = (string)meals.getFriday;
+            MondayLiteral.Text = meals.MondaySpecial;
+            TuesdayLiteral.Text = meals.TuesdaySpecial;
+            WednesdayLiteral.Text = meals.WednesdaySpecial;
+            ThursdayLiteral.Text = meals.ThursdaySpecial;
+            FridayLiteral.Text = meals.FridaySpecial;
         }
 
-        protected void btnOrder_Click(object sender, EventArgs e)
+        protected void OrderBtn_Click(object sender, EventArgs e)
         {
             
         }

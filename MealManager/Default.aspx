@@ -8,9 +8,9 @@
             <div class="col-md-10">
                 <h1>Meal Manager</h1>
                 <p class="lead">Order your meal with just a click. Serving Building A and Building B.</p>
-                <asp:Button ID="btnOrder" runat="server" Text="Order Now" OnClick="btnOrder_Click" CssClass="btn btn-primary btn-lg"/>
+                <asp:Button ID="OrderButton" runat="server" Text="Order Now" OnClick="OrderBtn_Click" CssClass="btn btn-primary btn-lg" />
             </div>
-           
+
             <div class="col-md-2"></div>
         </div>
     </div>
@@ -21,12 +21,12 @@
                 Baked Chicken with a side of kale greens. Served over piping hot carrots and artichokes or something.
             </p>
             <a runat="server" href="~/">
-                <asp:Image  ID="ChickenImage" runat="server" ImageUrl="~/Images/chicken.jpg" BorderStyle="None" Width="75%" CssClass="image-special"/>
-            </a>  
+                <asp:Image ID="ChickenImage" runat="server" ImageUrl="~/Images/chicken.jpg" BorderStyle="None" Width="75%" CssClass="image-special" />
+            </a>
             <p>
                 <a class="btn btn-default" href="MainMenu">Order Now &raquo;</a>
             </p>
-           
+
         </div>
         <div class="col-md-4">
             <h2>This Week's Specials</h2>
@@ -37,14 +37,14 @@
 
                         <td class="bold">Monday</td>
                         <td>
-                            <asp:Literal ID="ltMondayMessage" runat="server" />
+                            <asp:Literal ID="MondayLiteral" runat="server" />
                         </td>
                     </tr>
                     <tr>
 
                         <td>Tuesday</td>
                         <td>
-                            <asp:Literal ID="ltTuesdayMessage" runat="server" />
+                            <asp:Literal ID="TuesdayLiteral" runat="server" />
                         </td>
 
                     </tr>
@@ -52,7 +52,7 @@
 
                         <td>Wednesday</td>
                         <td>
-                            <asp:Literal ID="ltWednesdayMessage" runat="server" />
+                            <asp:Literal ID="WednesdayLiteral" runat="server" />
                         </td>
 
                     </tr>
@@ -61,7 +61,7 @@
                         <td>Thursday</td>
 
                         <td>
-                            <asp:Literal ID="ltThursdayMessage" runat="server" />
+                            <asp:Literal ID="ThursdayLiteral" runat="server" />
                         </td>
                     </tr>
                     <tr>
@@ -69,14 +69,14 @@
                         <td>Friday</td>
 
                         <td>
-                            <asp:Literal ID="ltFridayMessage" runat="server" />
+                            <asp:Literal ID="FridayLiteral" runat="server" />
 
                         </td>
                     </tr>
                 </tbody>
             </table>
-            
-   
+
+
         </div>
         <div class="col-md-4">
             <h2>News from the Kitchen</h2>
