@@ -25,7 +25,7 @@ namespace MealManager
 
         protected void OrderBtn_Click(object sender, EventArgs e)
         {
-            
+            Response.Redirect("~/MainMenu.aspx");
         }
     }
 }
