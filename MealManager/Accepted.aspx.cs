@@ -7,15 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace MealManager
 {
-    public partial class MainMenu : System.Web.UI.Page
+    public partial class Accepted : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-        protected void SelectBtn_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/MainMenu.aspx");
         }
     }
 }

@@ -102,6 +102,80 @@ body {
         .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
             color: #bb4545;
         }
+.row-table {
+    display:table;
+}
+.icon-container {
+        text-align:center;
+        
+}
+.row-date {
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.row-menu {
+    min-height:600px;
+}
+.panel-special {
+    min-height:200px;
+    border-color:#9D9CA3;
+}
+.icon-link i {
+    color:#62606B;
+}
+.icon-link :hover  {
+    color:#DDA2A2;
+}
+.radiotext {
+    margin: 10px 10px 0px 0px;
+}
+.confirmation-row {
+    margin-top:30px;
+}
+.header-accepted {
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.panel-special .panel-heading {
+    background-color:#62606B;
+    border-color:#9D9CA3;
+}
+.column-table {
+     float: none;
+    display: table-cell;
+}
+.list-group-meal li:hover {
+    background-color:#DDA2A2;
+}
+.menu-selected {
+    background-color:#E7BDBD;
+}
+.menu-unselected {
+    background-color:#FFF;
+}
+.selection-container {
+    width:100%
+}
+
+/*END Steve CSS*/
+
+/* Anthnoy Howard */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/******************/
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 0px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -127,22 +201,3 @@ body {
     }
 }
 
-/*END Steve CSS*/
-
-/* Anthnoy Howard */
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/******************/
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        margin-top: 0px;
-    }
-
-    .body-content {
-        padding: 0;
-    }
-}

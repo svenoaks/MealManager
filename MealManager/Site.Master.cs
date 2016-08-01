@@ -69,6 +69,9 @@ namespace MealManager
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Page.RegisterClientScriptBlock("FontAwesome",
+              //      "<script language=javascript src='https://use.fontawesome.com/ee0b41a556.js'>");
+            //Page.RegisterClientScriptBlock("MyScripts", "<script language=javascript src='~/Scripts/MyScript.js'>");
 
         }
 
