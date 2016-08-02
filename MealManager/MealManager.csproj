@@ -186,7 +186,11 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\chicken.jpg" />
     <Content Include="Images\food.jpg" />
+    <Content Include="Images\inventory.png" />
+    <Content Include="Images\orders.ico" />
+    <Content Include="Inventory.aspx" />
     <Content Include="MainMenu.aspx" />
+    <Content Include="Orders.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -390,6 +394,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -399,6 +410,13 @@
     </Compile>
     <Compile Include="MealsOfTheWeek.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Orders.aspx.designer.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

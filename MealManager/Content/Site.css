@@ -123,6 +123,18 @@ body {
 .icon-link i {
     color:#62606B;
 }
+.dash-image {
+    width:128px;
+    height:128px;
+    margin:auto;
+}
+.row-dash {
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.btn-dash {
+    margin-top:20px;
+}
 .icon-link :hover  {
     color:#DDA2A2;
 }
