@@ -7,7 +7,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-10">
                 <h1>Meal Manager</h1>
-                <p class="lead">Order your meal with just a click. Serving Building A and Building B.</p>
+                <p class="lead">Order your meal with just a click. Serving Building 5201 and Building 5191.</p>
                 <asp:Button ID="OrderButton" runat="server" Text="Order Now" OnClick="OrderBtn_Click" CssClass="btn btn-primary btn-lg" />
             </div>
 
@@ -16,7 +16,7 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-            <h2>Today's Special</h2>
+            <h2>Today's Dinner Special</h2>
             <p>
                 Baked Chicken with a side of kale greens. Served over piping hot carrots and artichokes or something.
             </p>
@@ -34,7 +34,6 @@
             <table class="table">
                 <tbody>
                     <tr>
-
                         <td class="bold">Monday</td>
                         <td>
                             <asp:Literal ID="MondayLiteral" runat="server" />
